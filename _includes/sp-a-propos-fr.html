@@ -1,0 +1,36 @@
+<section id="greeting" class="wrapper style5 special">
+  <div class="inner mediumwidth">
+    <header class="major">
+      <h2>{% if site.greeting.title[page.lang] %}{{ site.greeting.title[page.lang] }}
+        {% else %}{{ site.title[page.lang] }}{% endif %}</h2>
+      <p style="text-align: left">
+        L’association des doctorants 
+        et docteurs des Écoles 
+        Doctorales PSIME et  MIIS sur les sites Rouen & Le Havre est 
+        une communauté et un réseau de chercheurs, de compétences, 
+        d’innovation, de créativité et d’entreprise.</p>
+
+      <p style="text-align: left"> <a href="otherdocs/logo1.pdf" style="align-center; border-bottom: none" >
+        <img src="images/logo.png" alt="ADDED Logo" 
+        style="width:150px;height:150px;float: right;  margin-left: 
+        30px;margin-right: 30px">
+        Notre association a pour but de créer des liens et des échanges entre 
+        les doctorants et les docteurs des Écoles Doctorales PSIME et MIIS, 
+        durant et après le doctorat.</p>
+    </header>
+    <ul class="icons major">
+{%
+    for socloc in site.social limit:3 %}{%
+      if socloc[1] %}{%
+        if socloc[0] == 'email' %}
+      <li><a target="_blank" href="mailto:{{ socloc[1] }}" class="icon fa-envelope major style1"
+             ><span class="label">E-mail</span></a></li>{%
+        else %}
+      <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style1"
+             ><span class="label">{{ socloc[0] }}</span></a></li>{%
+        endif %}{%
+      endif %}{%
+    endfor %}
+    </ul>
+  </div>
+</section>

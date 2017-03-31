@@ -1,0 +1,57 @@
+---
+key: 2
+title: Évènements
+lang: fr
+permalink: /evenements/
+options: fullwidth
+excerpt: Restez informé
+---
+<section id="greeting" class="wrapper style5 special">
+  <div class="inner mediumwidth">
+    <header class="major">
+    <p style="text-align: left">
+      L'association ADDED organise des événements scientifiques et sociaux qui 
+      touchent la vie des doctorants. Nous mettons à jour cette page pour vous 
+      tenir informés des nouveaux événements à venir. Si vous avez des idées 
+      sur des activités que vous aimeriez faire, n'hésitez pas à nous contacter 
+      (<a href="{{site.url}}/contact/">contact</a>).
+    </p>
+    </header>
+  </div>
+</section>
+
+
+{%  if site.posts %}{%
+      if site.tags.featured %}
+  <hr style="margin:0 0 1em 0;" />
+  <h4>Prochainement</h4>
+  <ul class="post-list">{%
+        for post in site.categories.evenements reversed%}{%
+          if post.tags contains "featured" %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="container">
+            <p class="post-title">{{ post.title }}</p>
+            <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+            <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 100 }}</p>
+          </div>
+        </a>
+      </li>{% endif %}{% endfor %}
+  </ul>{% endif %}
+  <hr style="margin:1em 0 1em 0;" />
+
+    <ul style="list-style-type: none;">{%
+      assign p = '9999'%}
+      {%  for post in site.categories.evenements reversed%}{%
+            assign n = post.date | date: "%Y"%}{%
+                  if n != p%}{%
+                          assign p = n%}
+      <br /><h5>{{ n }}</h5>
+      {% endif %}
+      <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
+        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
+          {{ post.excerpt | strip_html | truncatewords: 100 }}</li>{%
+      endfor %}
+    </ul>
+
+{%  endif %}
