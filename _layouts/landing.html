@@ -36,17 +36,7 @@
           {% if site.greeting %}
           {% include sp-a-propos-{{page.lang}}.html %}
           {%  endif %}
-
-
           <!-- Two -->
-          <!-- {% assign pages=site.pages | where:"lang", page.lang %}
-          <ul>
-          {% for page in pages %}
-              <li>
-                  <a href="{{% page.url %}}/">{{ page.title}}</a>
-              </li>
-          {% endfor %}
-          </ul> -->
 					<section id="two" class="wrapper alt style2">
 						{% include sp-actualites-{{page.lang}}.html %}
             {% include sp-jdd-{{page.lang}}.html %}

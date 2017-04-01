@@ -1667,7 +1667,14 @@ $baseurl: '{{ site.baseurl }}/images';
 				margin: 0;
 				padding: 0;
 				white-space: nowrap;
-
+				> span.lang-style-header {
+					border: 0;
+					color: _palette(fg-bold);
+					display: inline;
+					font-size: _font(hdr-size-xsmall);
+					letter-spacing: _size(letter-spacing-alt);
+					text-transform: uppercase;
+				}
 				> li {
 					display: inline-block;
 					padding: 0;
@@ -4682,6 +4689,11 @@ $baseurl: '{{ site.baseurl }}/images';
   margin: 0.13em 0.05em 0 -0.05em;
   font-size: 3.333em;
   line-height: 0.75em; }
+
+.en:lang(en), .fr:lang(fr), .zh:lang(zh){
+    font-weight: bold;
+}
+
 
 {% if site.custom_extensions == 'yes' %}
 {% include _my/custom.scss %}

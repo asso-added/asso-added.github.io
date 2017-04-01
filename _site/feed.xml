@@ -5,8 +5,8 @@
     <description>{&quot;fr&quot;=&gt;&quot;L'Association des Doctorants et Docteurs  \ndes Écoles Doctorales PSIME &amp; MIIS  \nsur Rouen &amp; Le Havre\n&quot;, &quot;en&quot;=&gt;&quot;The Association of PhD students and Doctors  \nof the Doctoral Schools PSIME &amp; MIIS  \nat Rouen &amp; le Havre\n&quot;}</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Mar 2017 19:55:09 +0200</pubDate>
-    <lastBuildDate>Fri, 31 Mar 2017 19:55:09 +0200</lastBuildDate>
+    <pubDate>Sat, 01 Apr 2017 15:02:12 +0200</pubDate>
+    <lastBuildDate>Sat, 01 Apr 2017 15:02:12 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -1364,8 +1364,58 @@ print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Sun, 01 Oct 2017 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017/</link>
-        <guid isPermaLink="true">http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017/</guid>
+        <link>http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-fr/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-fr/</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>evenements</category>
+        
+        <category>Others</category>
+        
+      </item>
+    
+      <item>
+        <title>PhD Talent Career Fair October 2017</title>
+        <description>&lt;section id=&quot;greeting&quot; style=&quot;width: 80em;&quot;&gt;
+  &lt;div style=&quot;margin-left: 1em&quot;&gt;
+    &lt;header class=&quot;major&quot;&gt;
+  &lt;h4&gt;Job forums for Young Doctors 2017&lt;/h4&gt;
+  &lt;p&gt;
+    In order to help the doctors in their professional insertion, 
+    three PhD associations in Normandy 
+    (&lt;strong&gt;&lt;a href=&quot;http://assoc-optic.fr/?lang=fr&quot;&gt;OPTIC&lt;/a&gt;&lt;/strong&gt;,
+    &lt;strong&gt; &lt;a href=&quot;http://www.assonormadoc.fr/&quot;&gt;NormaDoc&lt;/a&gt; &lt;/strong&gt;et
+     &lt;strong&gt;&lt;a href=&quot;http://localhost:4000/index-en&quot;&gt;ADDED&lt;/a&gt;&lt;/strong&gt;) 
+     took the initiation to organize a trip to national job forums. These 
+     forums allow gathering PhD students, young researchers and also other 
+     enterprises who are looking for recruiting 
+     &lt;strong&gt;young doctors&lt;/strong&gt;  At a first place, the two forums Biotechno 
+     2017 and PhD Talent Career Fair will be an opportunity for
+    &lt;strong&gt;young doctors &lt;/strong&gt;to apply for &lt;strong&gt;jobs offers for 
+      imminent recruiting&lt;/strong&gt; and present their CVs:
+  &lt;/p&gt;
+  &lt;h4&gt;PhD Talent Career Fair Octobre 2017 (&lt;a href=&quot;https://www.phdtalent.org/phdtalent-career-fair.php&quot;&gt;link&lt;/a&gt;)&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;80 enterprises present in 2016 (from PMEs to multinationals in all 
+      domains).&lt;/li&gt;
+    &lt;li&gt;Plenary conferences, enterprises presentations, round tables, 
+      workshops, stands for partners enterprises, diffusion of job offers, 
+      bring your CV.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+    In order to estimate the number of PhD student who are interested to attend 
+    these two forums, we make a form that you are invited to fill it in:  
+    &lt;strong&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSca9DgWNhsPtuNy7TF9ytpjp1RsY6QxPvgtssP6rN_rAik31w/viewform&quot;&gt;form&lt;/a&gt;&lt;/strong&gt;.
+  &lt;/p&gt;
+&lt;/header&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 01 Oct 2017 02:00:00 +0200</pubDate>
+        <link>http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-en/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-en/</guid>
         
         <category>featured</category>
         
@@ -1419,8 +1469,61 @@ print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Fri, 16 Jun 2017 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-juin-2017/</link>
-        <guid isPermaLink="true">http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-juin-2017/</guid>
+        <link>http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-fr/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-fr/</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>evenements</category>
+        
+        <category>Others</category>
+        
+      </item>
+    
+      <item>
+        <title>Forum Biotechno June, 16th 2017</title>
+        <description>&lt;section id=&quot;greeting&quot; style=&quot;width: 80em;&quot;&gt;
+  &lt;div style=&quot;margin-left: 1em&quot;&gt;
+    &lt;header class=&quot;major&quot;&gt;
+  &lt;h4&gt;Job forums for Young Doctors 2017&lt;/h4&gt;
+  &lt;p&gt;
+    In order to help the doctors in their professional insertion, 
+    three PhD associations in Normandy 
+    (&lt;strong&gt;&lt;a href=&quot;http://assoc-optic.fr/?lang=fr&quot;&gt;OPTIC&lt;/a&gt;&lt;/strong&gt;,
+    &lt;strong&gt; &lt;a href=&quot;http://www.assonormadoc.fr/&quot;&gt;NormaDoc&lt;/a&gt; &lt;/strong&gt;et
+     &lt;strong&gt;&lt;a href=&quot;http://localhost:4000/index-en&quot;&gt;ADDED&lt;/a&gt;&lt;/strong&gt;) 
+     took the initiation to organize a trip to national job forums. These 
+     forums allow gathering PhD students, young researchers and also other 
+     enterprises who are looking for recruiting 
+     &lt;strong&gt;young doctors&lt;/strong&gt;  At a first place, the two forums Biotechno 
+     2017 and PhD Talent Career Fair will be an opportunity for
+    &lt;strong&gt;young doctors &lt;/strong&gt;to apply for &lt;strong&gt;jobs offers for 
+      imminent recruiting&lt;/strong&gt; and present their CVs:
+  &lt;/p&gt;
+  &lt;h4&gt;Biotechno Forum June 2017 (&lt;a href=&quot;http://www.reseau-biotechno.com/?page_id=2079&quot;&gt;link&lt;/a&gt;)&lt;/h4&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Discover the jobs of biotechnology and connect the young researchers 
+      with biotechnologies' enterprises which are looking for recruiting them.&lt;/li&gt;
+    &lt;li&gt;Plenary conference, enterprises presentations, round tables, workshops, 
+      stands for partners enterprises, networking, ...&lt;/li&gt;
+    &lt;li&gt;Organized by students associations in four cities in France (Paris, 
+      Lyon, Strasbourg, Dijon), the forum in Paris will be hold the &lt;strong&gt;
+        Jun 16&lt;sup&gt;th&lt;/sup&gt; &lt;/strong&gt;  2017 (entrance fee not fixed yet. 
+        Estimated between 10 and 20€).&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+    In order to estimate the number of PhD student who are interested to attend 
+    these two forums, we make a form that you are invited to fill it in:  
+    &lt;strong&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSca9DgWNhsPtuNy7TF9ytpjp1RsY6QxPvgtssP6rN_rAik31w/viewform&quot;&gt;form&lt;/a&gt;&lt;/strong&gt;.
+  &lt;/p&gt;
+&lt;/header&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Fri, 16 Jun 2017 02:00:00 +0200</pubDate>
+        <link>http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-en/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-en/</guid>
         
         <category>featured</category>
         
@@ -1436,7 +1539,7 @@ print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt;
         <description>&lt;section id=&quot;greeting&quot; style=&quot;width: 80em;&quot;&gt;
   &lt;div style=&quot;margin-left: 1em&quot;&gt;
     &lt;header class=&quot;major&quot;&gt;
-  &lt;h4&gt;JDD, 13 &amp;amp; 14 juin, 2017, à l'Université de Rouen (Site du Madrillet)&lt;/h4&gt;
+  &lt;h4&gt;JDD, 13 &amp;amp; 14 Juin, 2017, à l'Université de Rouen (Site du Madrillet)&lt;/h4&gt;
   &lt;p&gt;
     Bienvenue sur la page de la &lt;strong&gt;9&lt;sup&gt;ème&lt;/sup&gt; édition&lt;/strong&gt; des Journées Des Doctorants (JDD) 
     des écoles doctorales PSIME et MIIS qui se tiendra du &lt;strong&gt;13 au 14 Juin 2017 à 
@@ -1625,8 +1728,8 @@ print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/evenements/post-jdd17/</link>
-        <guid isPermaLink="true">http://localhost:4000/evenements/post-jdd17/</guid>
+        <link>http://localhost:4000/evenements-fr/post-jdd17-fr/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-fr/post-jdd17-fr/</guid>
         
         <category>featured</category>
         
@@ -1638,86 +1741,207 @@ print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt;
       </item>
     
       <item>
-        <title>Project Y</title>
-        <description>&lt;h4 id=&quot;results&quot;&gt;Results&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;24% increase in M, measured by N&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-
-&lt;p&gt;Project Y involved ….&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Sep 2000 02:10:00 +0200</pubDate>
-        <link>http://localhost:4000/works/works-example2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/works/works-example2.html</guid>
-        
-        <category>This</category>
-        
-        <category>That</category>
-        
-        <category>The other</category>
-        
-        
-        <category>works</category>
-        
-      </item>
+        <title>JDD 2017</title>
+        <description>&lt;section id=&quot;greeting&quot; style=&quot;width: 80em;&quot;&gt;
+  &lt;div style=&quot;margin-left: 1em&quot;&gt;
+    &lt;header class=&quot;major&quot;&gt;
+  &lt;h4&gt;PhD Day (JDD), 13 &amp;amp; 14&lt;sup&gt;th&lt;/sup&gt; June, 2017, at l'Université de Rouen (Madrillet site)&lt;/h4&gt;
+  &lt;p&gt;
+    Welcome to the page of the &lt;strong&gt;9&lt;sup&gt;th&lt;/sup&gt; edition&lt;/strong&gt; of the 
+    JDD which will take place in &lt;strong&gt;13-14&lt;sup&gt;th&lt;/sup&gt; June 2017 at
+    l’Université du Rouen at Madrillet site&lt;/strong&gt;.
+  &lt;/p&gt;
+  &lt;p&gt;
+    This year, as a consequence of the fusion of the doctoral schools SPMII 
+    (Rouen/Le Havre) and SIMEM (Caen/Cherbourg), the JDD format has slightly 
+    changed. The number of the PhD students concerned by this JDD has been 
+    doubled. Therefore, we choose to extend the period of the JDD from one 
+    day to two days in order to give the chance to all the PhD students to 
+    present their work.
+  &lt;/p&gt;
+  &lt;p&gt;
+    The JDDs are organized by the associations: &lt;strong&gt; 
+      &lt;a href=&quot;http://localhost:4000/index-en&quot;&gt;ADDED&lt;/a&gt; &lt;/strong&gt;
+    (Association des Doctorants et Docteurs des Écoles Doctorales PSIME/MIIS - 
+    Rouen &amp;amp; Le Havre) &lt;strong&gt;and &lt;a href=&quot;http://assoc-optic.fr/?lang=fr&quot;&gt;OPTIC&lt;/a&gt; &lt;/strong&gt;
+    (Organisation Pour les Thésards 
+    Interdisciplinaire de Caen). The JDDs are sponsored by the Doctoral schools 
+    PSIME et MIIS.
+  &lt;/p&gt;
+  &lt;h4&gt;Proceeding of the JDD 2017&lt;/h4&gt;
+  &lt;p&gt;
+    This event is an occasion for the PhD students to present their work as a 
+    talk or a poster. PhD students are requested to make their presentation 
+    &lt;strong&gt;the simplest and more accessible for general public as 
+      possible&lt;/strong&gt; This will allow people for other domains to be able 
+      to understand their work. The best presentations in the different domains 
+      will be rewarded throughout a scientific jury. The different domains of 
+      the Doctoral schools are: Physics, Engineer Science, Mathematics, and 
+      Science of Technologies of Information and Communication. Moreover, the 
+      best poster will be selected through a voting of the PhD students.
+  &lt;/p&gt;
+  &lt;p&gt;
+    A mini-forum about the professional insertion of the doctors, 
+    will be hold along with a cocktail with a musical group. 
+  &lt;/p&gt;
+  &lt;p&gt;
+    All the necessary information about the JDD can be found in this page. If 
+    you need anything, do not hesitate to contact us at:  
+    : &lt;strong&gt;&lt;a href=&quot;mailto:organisationjdd@gmail.com&quot;&gt;organisationjdd@gmail.com&lt;/a&gt;
+      &lt;/strong&gt;
+  &lt;/p&gt;
+  
+  &lt;h4&gt;JDD 2017 organizers team:&lt;/h4&gt;
+  &lt;p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Marc-Aurèle Rivière&lt;/li&gt;
+      &lt;li&gt;Kamaldeep Singh Oberoi&lt;/li&gt;
+      &lt;li&gt;Deborah Michel&lt;/li&gt;
+      &lt;li&gt;Jean-Baptiste Louvet&lt;/li&gt;
+      &lt;li&gt;Ragav Ramachandran&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;box alt&quot;&gt;
+      &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+            &lt;a href=&quot;/index-en&quot;&gt;
+          &lt;img src=&quot;/images/jdd/jdd2017/added.png&quot; alt=&quot;ADDED&quot; style=&quot;width:150px; height:150px&quot; /&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/p&gt;
+  &lt;h4&gt;Organisateurs&lt;/h4&gt;
+    &lt;div class=&quot;box alt&quot;&gt;
+      &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+            &lt;a href=&quot;/index-en&quot;&gt;
+          &lt;img src=&quot;/images/jdd/jdd2017/added.png&quot; alt=&quot;ADDED&quot; style=&quot;width:150px; height:150px&quot; /&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+            &lt;a href=&quot;http://assoc-optic.fr/?lang=fr&quot;&gt;
+          &lt;img src=&quot;/images/jdd/jdd2017/optic.jpg&quot; alt=&quot;OPTIC&quot; style=&quot;width:150px; height:150px&quot; /&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;h4&gt;Partenaires&lt;/h4&gt;
+  &lt;div class=&quot;box alt&quot;&gt;
+    &lt;div class=&quot;row uniform 50%&quot;&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://www.normandie-univ.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/normandie-univ.png&quot; alt=&quot;normandie université&quot; style=&quot;width:100px; height:80px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://www.univ-rouen.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/univ-rouen.png&quot; alt=&quot;Université de Rouen&quot; style=&quot;width:150px; height:80px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;https://www.univ-lehavre.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/univ-le-havre.jpg&quot; alt=&quot;Université du Havre&quot; style=&quot;width:150px; height:70px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://www.insa-rouen.fr/accueil/index_html/view?set_language=en&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/insa.png&quot; alt=&quot;INSA de Rouen&quot; style=&quot;width:120px; height:70px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://www.esigelec.fr/en&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/esigelec.jpg&quot; alt=&quot;ESIGELEC&quot; style=&quot;width:150px; height:60px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;https://www.ensicaen.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/ensicaen.gif&quot; alt=&quot;ENSICAEN&quot; style=&quot;width:150px; height:50px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://www.unicaen.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/univ-caen.png&quot; alt=&quot;Université de Caen&quot; style=&quot;width:150px; height:70px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;https://www.normandie.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/normandie-region.jpg&quot; alt=&quot;Région Normandie&quot; style=&quot;width:150px; height:150px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://ed-miis.normandie-univ.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/miis.png&quot; alt=&quot;MIIS&quot; style=&quot;width:50px; height:100px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;
+          &lt;a href=&quot;http://ed-psime.normandie-univ.fr/&quot;&gt;
+        &lt;img src=&quot;/images/jdd/jdd2017/psime.png&quot; alt=&quot;PSIME&quot; style=&quot;width:100px; height:80px&quot; /&gt;
+        &lt;/a&gt;
+      &lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;br /&gt;
+  &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 col-sm-12&quot;&gt;
     
-      <item>
-        <title>Project Z</title>
-        <description>&lt;h4 id=&quot;results&quot;&gt;Results&lt;/h4&gt;
+      &lt;h4&gt;Access plan to Rouen University at the Madrillet site.&lt;/h4&gt;
+        &lt;div class=&quot;google-map&quot;&gt;
+          &lt;iframe src=&quot;https://maps-api-ssl.google.com/maps?hl=en-US&amp;amp;ll=49.388212,1.06659&amp;amp;output=embed&amp;amp;q=Avenue+de+l%27Universit%C3%A9,+76800+Saint-%C3%89tienne-du-Rouvray,+France+%28Avenue+de+l%27Universit%C3%A9%29&amp;amp;z=15&quot; width=&quot;540&quot; height=&quot;300&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+  
+  &lt;!-- &lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt; and this is &lt;strong&gt;strong&lt;/strong&gt;. This is &lt;i&gt;italic&lt;/i&gt; and this is &lt;em&gt;emphasized&lt;/em&gt;.
+  This is &lt;sup&gt;superscript&lt;/sup&gt; text and this is &lt;sub&gt;subscript&lt;/sub&gt; text.
+  This is &lt;u&gt;underlined&lt;/u&gt; and this is code: &lt;code&gt;for (;;) { ... }&lt;/code&gt;. Finally, &lt;a href=&quot;#&quot;&gt;this is a link&lt;/a&gt;.&lt;/p&gt;
+  &lt;hr /&gt;
+  &lt;header&gt;
+    &lt;h4&gt;Heading with a Subtitle&lt;/h4&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet nullam id egestas urna aliquam&lt;/p&gt;
+  &lt;/header&gt;
+  &lt;p&gt;Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.&lt;/p&gt;
+  &lt;header&gt;
+    &lt;h5&gt;Heading with a Subtitle&lt;/h5&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet nullam id egestas urna aliquam&lt;/p&gt;
+  &lt;/header&gt;
+  &lt;p&gt;Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.&lt;/p&gt;
+  &lt;hr /&gt;
+  &lt;h2&gt;Heading Level 2&lt;/h2&gt;
+  &lt;h3&gt;Heading Level 3&lt;/h3&gt;
+  &lt;h4&gt;Heading Level 4&lt;/h4&gt;
+  &lt;h5&gt;Heading Level 5&lt;/h5&gt;
+  &lt;h6&gt;Heading Level 6&lt;/h6&gt;
+  &lt;hr /&gt;
+  &lt;h5&gt;Blockquote&lt;/h5&gt;
+  &lt;blockquote&gt;Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.&lt;/blockquote&gt;
+  &lt;h5&gt;Preformatted&lt;/h5&gt;
+  &lt;pre&gt;&lt;code&gt;i = 0;
 
-&lt;ul&gt;
-  &lt;li&gt;19% increase in M, measured by N&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
 
-&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-
-&lt;p&gt;Project Z involved ….&lt;/p&gt;
+print 'It took ' + i + ' iterations to sort the deck.';&lt;/code&gt;&lt;/pre&gt; --&gt;
+&lt;/header&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 </description>
-        <pubDate>Sat, 23 Sep 2000 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/works/works-example3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/works/works-example3.html</guid>
+        <pubDate>Tue, 13 Jun 2017 02:00:00 +0200</pubDate>
+        <link>http://localhost:4000/evenements-en/post-jdd17-en/</link>
+        <guid isPermaLink="true">http://localhost:4000/evenements-en/post-jdd17-en/</guid>
         
-        <category>This</category>
-        
-        <category>That</category>
-        
-        <category>The other</category>
+        <category>featured</category>
         
         
-        <category>works</category>
+        <category>evenements</category>
         
-      </item>
-    
-      <item>
-        <title>Project X</title>
-        <description>&lt;h4 id=&quot;results&quot;&gt;Results&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;18% increase in M, measured by N&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-
-&lt;p&gt;Project X involved ….&lt;/p&gt;
-</description>
-        <pubDate>Fri, 22 Sep 2000 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/works/works-example1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/works/works-example1.html</guid>
-        
-        <category>This</category>
-        
-        <category>That</category>
-        
-        <category>The other</category>
-        
-        
-        <category>works</category>
+        <category>Others</category>
         
       </item>
     

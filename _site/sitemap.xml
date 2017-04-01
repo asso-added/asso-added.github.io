@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>http://localhost:4000/</loc>
-      <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+      <lastmod>2017-04-01T15:02:12+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -31,19 +31,37 @@
         <priority>0.9</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017/</loc>
+      <loc>http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-fr/</loc>
         <lastmod>2017-10-01T02:00:00+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/evenements/post-forums-d-emploi-des-jeunes-docteurs-juin-2017/</loc>
+      <loc>http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-octobre-2017-en/</loc>
+        <lastmod>2017-10-01T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/evenements-fr/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-fr/</loc>
         <lastmod>2017-06-16T02:00:00+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/evenements/post-jdd17/</loc>
+      <loc>http://localhost:4000/evenements-en/post-forums-d-emploi-des-jeunes-docteurs-juin-2017-en/</loc>
+        <lastmod>2017-06-16T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/evenements-fr/post-jdd17-fr/</loc>
+        <lastmod>2017-06-13T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/evenements-en/post-jdd17-en/</loc>
         <lastmod>2017-06-13T02:00:00+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -80,73 +98,97 @@
     </url>
     <url>
       <loc>http://localhost:4000/association-en/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/association-fr/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/contact-en/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/contact-fr/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-      <loc>http://localhost:4000/contact/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/credits/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/evenements-en/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/evenements-fr/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/index-en</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/jdd/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+      <loc>http://localhost:4000/jdd-en/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/jdd2017/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+      <loc>http://localhost:4000/jdd-fr/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/evenements/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+      <loc>http://localhost:4000/jdd2017-en/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/jdd2017-fr/</loc>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/works/</loc>
-        <lastmod>2017-03-31T19:55:09+02:00</lastmod>
+        <lastmod>2017-04-01T15:02:12+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

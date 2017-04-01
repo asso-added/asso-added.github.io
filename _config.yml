@@ -48,6 +48,9 @@ downloadlist:
   en: Download the list (*.pdf)
 
 lang: fr  # the default langauge. (_layout/default.html)
+lang-text:
+  fr: Français
+  en: English
 
 # on landing page
 # - set the greeting only if you want to display the first green section
