@@ -48,9 +48,53 @@ downloadlist:
   en: Download the list (*.pdf)
 
 lang: fr  # the default langauge. (_layout/default.html)
+navig-posts-lang:
+  next:
+    en: Next >
+    fr: Suivant >
+  back:
+    en: < Back
+    fr: < Précédent
 lang-text:
   fr: Français
   en: English
+date-trans:
+  January:
+    en: January
+    fr: Janvier
+  February:
+    en: February
+    fr: Février
+  March:
+    en: March
+    fr: Mars
+  April:
+    en: April
+    fr: Avril
+  May:
+    en: May
+    fr: Mai
+  June:
+    en: June
+    fr: Juin
+  July:
+    en: July
+    fr: Juillet
+  August:
+    en: August
+    fr: Août
+  September:
+    en: September
+    fr: Septembre
+  October:
+    en: October
+    fr: Octobre
+  November:
+    en: November
+    fr: Novembre
+  December:
+    en: December
+    fr: Décembre
 
 # on landing page
 # - set the greeting only if you want to display the first green section

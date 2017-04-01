@@ -6,4 +6,10 @@
     <p>{{ page.excerpt }}</p>{%
     endif %}
   </header>
-  {% include breadcrumb.html %}
+  {% if page.lang %}
+  {% include breadcrumb-{{ page.lang }}.html %}
+  {% else %}
+  {% include breadcrumb-{{ site.lang }}.html %}
+  {% endif %}
+  
+  

@@ -6,10 +6,12 @@
           # Original idea:
           #   https://gist.github.com/budparr/3e637e575471401d01ec
   {%    endcomment
+
 %}{%    for post in sorted_list
+%}{%      if post.lang == page.lang
 %}{%      if post.url == page.url
 %}{%        unless forloop.first
-%}{%          assign prevbutton = '&lt; Back'
+%}{%          assign prevbutton = site.navig-posts-lang["back"][page.lang]
 %}{%          assign prevurl = prev.url
 %}{%          assign prevtitle = prev.title
 %}{%        elsif page.permalink
@@ -23,7 +25,7 @@
 %}{%        endunless
 %}{%        unless forloop.last
 %}{%          assign next = sorted_list[forloop.index]
-%}{%          assign nextbutton = 'Next &gt;'
+%}{%          assign nextbutton = site.navig-posts-lang["next"][page.lang]
 %}{%          assign nexturl = next.url
 %}{%          assign nexttitle = next.title
 %}{%        else
@@ -31,6 +33,7 @@
 %}{%          assign nexturl = idxperma | prepend: baseurl
 %}{%          assign nexttitle = idxtitle
 %}{%        endunless
+%}{%      endif
 %}{%      endif
 %}{%      assign prev = post
 %}{%    endfor

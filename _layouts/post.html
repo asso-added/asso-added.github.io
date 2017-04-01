@@ -2,35 +2,44 @@
 layout: default
 ---
   <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
-    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
+    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">
+
+      {%
       unless site.navlinks == 'none'
-%}{%    if page.categories contains 'works'
-%}{%      assign idxperma = '/works/'
-%}{%      assign idxtitle = 'Works Index'
+%}{%    if page.categories contains 'evenements'
+%}{%      assign idxperma = '/evenements-' | append: page.lang
+%}{%      assign idxtitle = 'Index'
 %}{%      assign idxbutton = 'Index'
-%}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
+%}{%      include fn_groupsort_reverse.html unsorted=site.categories.evenements groupby='priority' sortby='date'
 %}{%    endif
-%}{%    if page.categories.first == 'topics' and page.categories.last != 'topics'
+%}{%    if page.categories.first == 'evenements' and page.categories.last != 'evenements'
 %}{%      assign idxperma = page.categories | join: '/' | prepend: '/' | append: '/'
 %}{%      assign idxtitle = 'Start page'
 %}{%      assign idxbutton = 'Start'
 %}{%      assign sorted_list = site.empty_array
-%}{%      for topic in site.categories.topics
-%}{%        if topic.categories.last == page.categories.last
-%}{%          assign sorted_list = sorted_list | push: topic
-%}{%        endif
+%}{%      for topic in site.categories.evenements
+%}{%          if topic.categories.last == page.categories.last
+%}{%           assign sorted_list = sorted_list | push: topic
+%}{%          endif
 %}{%      endfor
 %}{%      assign sorted_list = sorted_list | sort: 'date'
 %}{%    endif
 %}{%  endunless
-%}{%  if sorted_list
-%}{%    if site.navlinks == 'top' or site.navlinks == 'both'
-%}{%      include fn_sortednav.html posclass='btntop'
-%}{%    endif
-%}{%  endif
+  %}{%  if sorted_list
+  %}{%    if site.navlinks == 'top' or site.navlinks == 'both'
+  %}{%      include fn_sortednav.html posclass='btntop'
+  %}{%    endif
+  %}{%  endif
 %}{%  unless page.options contains 'minihead' %}
-      <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span><hr
-        style="margin-top:3px;" />{%
+      <span id="post-date" class="this-date" >
+        {% assign m = page.date | date: "%B" %}
+        {{ page.date | date: "%d" }}
+        {{ site.date-trans[m][page.lang] }}
+        {{ page.date | date: "%Y" }}
+        <!-- {{ page.date  | date: "%-d %B %Y" }} -->
+      </span>
+      <hr
+        style="margin-top:3px;  margin-right: 11em;" />{%
       endunless
 %}{%  if page.categories contains 'works' and page.tags %}
       <h4>Skills</h4>
@@ -59,5 +68,13 @@ layout: default
   {%    endunless
 %}{%  endif
 %}
+
+{% for post in sorted_list %}
+ <li>
+     <a href="{{ post.url }}">{{ post.lang }} {{ page.lang }}</a>
+ </li>
+{% endfor %}
     </div>
+
+    
   </section>

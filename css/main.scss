@@ -189,6 +189,7 @@ $baseurl: '{{ site.baseurl }}/images';
   		font-size: _font(hdr-size-xlarge);
   	}
   	*/
+		
     p, dt, dd, p span, th, td, li, blockquote, #post-date {
       font-family: _font(prose-family);
       font-size: _font(prose-size-large);
@@ -197,12 +198,14 @@ $baseurl: '{{ site.baseurl }}/images';
       strong, b {
         font-weight: _font(prose-font-weight);
       }
+			
     }
     th, dt {
     	font-weight: _font(prose-weight-bold);
     }
     #post-date {
     	font-weight: _font(prose-weight-bold);
+		
     }
     p code {
       font-size: _font(inline-fixed-size);
@@ -4694,7 +4697,18 @@ $baseurl: '{{ site.baseurl }}/images';
     font-weight: bold;
 }
 
-
+div.post-content{
+	margin-left: 8em;
+	margin-right: 8em;
+}
+section.post-size{
+	width: auto;
+	margin-right: 8em;
+}
+/*for the title in posts*/
+span.this-date{
+		margin-left: 7em
+	}
 {% if site.custom_extensions == 'yes' %}
 {% include _my/custom.scss %}
 {% endif %}
