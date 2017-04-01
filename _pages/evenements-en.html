@@ -1,0 +1,61 @@
+---
+key: 2
+title: Events
+lang: en
+ref: events
+permalink: /evenements-en/
+options: fullwidth
+excerpt: Stay updated
+---
+<section id="greeting" class="wrapper style5 special">
+  <div class="inner mediumwidth">
+    <header class="major">
+    <p style="text-align: left">
+      The ADDED association organizes scientific and social events related to 
+      PhD students. You find in this page informations to keep you updated 
+      about the upcoming events. If you have ideas about activities that you 
+      would like to do, please contact us 
+      (<a href="{{site.url}}/contact-{{page.lang}}/">contact</a>).
+    </p>
+    </header>
+  </div>
+</section>
+
+<!-- The below part is independent of the langauge. -->
+
+{%  if site.posts %}{%
+      if site.tags.featured %}
+  <hr style="margin:0 0 1em 0;" />
+  <h4>Coming up</h4>
+  <ul class="post-list">
+    {% assign postslang=site.categories.evenements | where:"lang", page.lang %}
+    {%for post in postslang reversed%}
+        {% if post.tags contains "featured" %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="container">
+            <p class="post-title">{{ post.title }}</p>
+            <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+            <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 100 }}</p>
+          </div>
+        </a>
+      </li>{% endif %}{% endfor %}
+  </ul>{% endif %}
+  <hr style="margin:1em 0 1em 0;" />
+
+    <ul style="list-style-type: none;">
+      {% assign p = '9999'%}
+      {% assign postslang=site.categories.evenements | where:"lang", page.lang %}
+      {%  for post in postslang reversed%}{%
+            assign n = post.date | date: "%Y"%}{%
+                  if n != p%}{%
+                          assign p = n%}
+      <br /><h5>{{ n }}</h5>
+      {% endif %}
+      <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
+        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
+          {{ post.excerpt | strip_html | truncatewords: 100 }}</li>{%
+      endfor %}
+    </ul>
+
+{%  endif %}
