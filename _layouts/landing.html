@@ -26,7 +26,10 @@
                 <li><a href="#" class="button special">En cours de construction</a></li>
               </ul> -->
             
-            </div>{%
+            </div>
+            
+            
+            {%
             if site.greeting %}
             <a href="#greeting" class="more scrolly">{{ site.knowmore[page.lang] }}</a>{%
             else %}
@@ -38,6 +41,7 @@
           {%  endif %}
           <!-- Two -->
 					<section id="two" class="wrapper alt style2">
+            
 						{% include sp-actualites-{{page.lang}}.html %}
             {% include sp-jdd-{{page.lang}}.html %}
 						{% include sp-nouveau-dc-{{page.lang}}.html %}
