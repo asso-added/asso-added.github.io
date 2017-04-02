@@ -1,10 +1,12 @@
 <ul class="breadcrumb">
   <li><a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">Home</a></li>
+  {% if page.categories.evenements %}
   {% assign eventsurl = site.baseurl | append: '/evenements-' | append: page.lang  | append: '/'%} 
   {% if eventsurl != page.url %}
   <li><a href="{{ site.baseurl }}/evenements-{{ page.lang }}">Events</a></li>
   {% endif %}
-
+  {% endif %}
+  
   {%
   if page.layout == 'page' %}
   <li>{{ page.title }}</li>{%

@@ -1,9 +1,13 @@
 <ul class="breadcrumb">
   <li><a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">Accueil</a></li>
-  {% assign eventsurl = site.baseurl | append: '/evenements-' | append: page.lang  | append: '/'%} 
+  {% if page.categories.evenements %}
+  {% assign eventsurl = site.baseurl | append: '/evenements-' | append: page.lang  | append: '/'%}
   {% if eventsurl != page.url %}
   <li><a href="{{ site.baseurl }}/evenements-{{ page.lang }}">Évènements</a></li>
   {% endif %}
+  {% endif %}
+   
+  
 
   {%
   if page.layout == 'page' %}
@@ -15,6 +19,7 @@
         capture urlstr %}{{ urlstr }}/{{ cat }}{% endcapture %}
   <li style="text-transform: capitalize;"><a href="{{ site.baseurl }}{{ urlstr }}">{{ cat }}</a></li>{%  endunless %}{%
     endfor %}
-  <li>{{ page.title }}</li>{%
-  endif %}
+    
+  <li>{{ page.title }}</li>
+  {% endif %}
 </ul>
