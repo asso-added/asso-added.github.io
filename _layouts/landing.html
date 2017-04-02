@@ -50,6 +50,16 @@
             {% include sp-jdd-{{page.lang}}.html %}
 						{% include sp-nouveau-dc-{{page.lang}}.html %}
             {% include sp-reseau-docteurs-{{page.lang}}.html %}
+            {% assign langs = [] %}
+            {% assign initlang = site.lang %}
+            {% for post in site.post %}
+            {% if post.lang != initlang %}
+            {%  assign langs = langs | push: post.lang %}
+            {% endif %}
+            {% endfor%}
+            {%  assign langs = langs | push: initlang %}
+            {{ langs }}
+            {{ site.url }}
 					</section>
         <!-- Two -->
           <!-- <section id="landing_pages" class="wrapper alt style2">{%
