@@ -62,7 +62,7 @@ layout: default
 %}{%  unless page.author == 'none'
 %}{%    include author-block.html %}
   {%  endunless
-%}{%  if jekyll.environment == "development"
+%}{%  if jekyll.environment == "production"
 %}{%      include disqus.html
 %}{%    unless page.options contains nocomment or page.categories contains 'works'
 %}{%      include disqus.html %}
@@ -70,7 +70,7 @@ layout: default
 %}{%  endif
 %}
 
-{%      include disqus.html %}
+
     </div>
 
     
