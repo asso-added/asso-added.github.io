@@ -45,7 +45,6 @@ Sinon:
   * Une personne (qui a accès au dépôt original) va vérifier et valider vos modifications.
 * Si vous n'avez pas de compte github, et vous préfériez de travailler que sur le [compte du dépôt original](https://github.com/asso-added): `IL EST RECOMMANDÉ QU'UNE SEULE PERSONNE DE FAIRE LES MODIFICATIONS (DANS UN INSTANT). Pourquoi? pour éviter les conflits. SI DEUX PERSONNES SE LOGUENT EN TEMPS SUR L'INTERFACE DE GITHUB ET COMMENCENT À FAIRE DES MODIFICATIONS, LES CONFLITS SERONT INÉVITABLES. NOUS RECOMMANDONS DE DÉSIGNER UNE SEULE PERSONNE, DANS CE CAS, POUR FAIRE LES MODIFICATIONS. UN COMPTE GITHUB EST CENSÉ ÊTRE GÉNÉRÉ PAR UNE SEULE PERSONNE.`
 
-Test 2.
 
 Après chaque modification, github regénère le site. Cette opération peut prendre quelques seconds avant que les modifications soient visibles sur l'addrese dur site.
 
