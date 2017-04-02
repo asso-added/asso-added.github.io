@@ -1,6 +1,7 @@
 ---
 title: Last topic in group
 excerpt: last topic 3
+published: false
 categories:
   - works
   - my topic group

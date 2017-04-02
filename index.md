@@ -1,9 +1,9 @@
 ---
 layout: landing
 title: Accueil
-comment: true
 lang: fr
 ref: index
+permalink: 
 key: 0
 sitemap:
   priority: 1.0

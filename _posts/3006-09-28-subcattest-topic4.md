@@ -1,6 +1,7 @@
 ---
 title: Test topic 2
 excerpt: Second awesome topic in the groupXXX
+published: false
 categories:
   - works
   - my topic group
