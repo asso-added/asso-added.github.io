@@ -50,17 +50,6 @@
             {% include sp-jdd-{{page.lang}}.html %}
 						{% include sp-nouveau-dc-{{page.lang}}.html %}
             {% include sp-reseau-docteurs-{{page.lang}}.html %}
-
-            {% assign groupedlang = site.posts | group_by: "lang" %}
-            {% for g in groupedlang %}
-             {% assign l = g.name%}
-             {% for post in site.posts %}
-             {% if post.lang == l %}
-             
-             <li>{{ post.url }}</li>
-             {% endif %}
-             {% endfor%}
-            {% endfor %}
 					</section>
         <!-- Two -->
           <!-- <section id="landing_pages" class="wrapper alt style2">{%
