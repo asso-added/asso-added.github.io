@@ -5,7 +5,7 @@
 
 Vous trouvez notre site officiel en [Français](http://www.association-added.fr)
 et en [Anglais](http://www.association-added.fr/index-en).
-Le site se trouve aussi sur l’adresse des pages de github : [https://asso-added.github.io](https://asso-added.github.io) pour la version en Français et sur [[https://asso-added.github.io/index-en](https://asso-added.github.io/index-en) pour la version en Anglais.
+Le site se trouve aussi sur l’adresse des pages de github : [https://asso-added.github.io](https://asso-added.github.io) pour la version en Français et sur [https://asso-added.github.io/index-en](https://asso-added.github.io/index-en) pour la version en Anglais.
 Vous pouvez nous contactez sur notre adresse mail : [association.added@gmail.com](mailto:association.added@gmail.com). Vous pouvez nous joindre par téléphone sur: **+33 (0) 2 35 14 71 84**. Notre bureau est localisé à Rouen à l’adresse :
 
 **Bâtiments de l'UFR des Sciences et Techniques**
