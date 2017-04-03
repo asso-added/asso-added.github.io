@@ -63,7 +63,6 @@ layout: default
 %}{%    include author-block.html %}
   {%  endunless
 %}{%  if jekyll.environment == "production"
-%}{%      include disqus.html
 %}{%    unless page.options contains nocomment or page.categories contains 'works'
 %}{%      include disqus.html %}
   {%    endunless
