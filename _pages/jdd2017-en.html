@@ -13,3 +13,9 @@ published: true
 ---
 
 {% include jdd2017-{{page.lang}}.html %}
+{%  if jekyll.environment == "production"
+%}{%    unless page.options contains nocomment or page.categories contains 'works'
+%}{%      include disqus.html %}
+  {%    endunless
+%}{%  endif
+%}
