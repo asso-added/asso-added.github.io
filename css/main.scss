@@ -607,7 +607,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			font-size: _font(hdr-size-xlarge);
 			height: calc(3em + 2px);
 			line-height: 3em;
-			text-align: center;
+			text-align: center;  
 			width: calc(3em + 2px);
 
 			&:before {
@@ -1128,6 +1128,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+
 /* Spotlight */
 
 	.spotlight {
@@ -1163,6 +1164,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
+			
 		}
 
 		&:nth-child(2n) {
@@ -2042,6 +2044,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
+			
+
 
 			h2 {
 				font-size: _font(hdr-size-xxlarge);
@@ -2677,7 +2681,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		width:33.33333333%
 	}
 	.col-md-3 {
-		width:17.666%
+		width:20%
 	}
 	.col-md-2 {
 		width:16.66666667%
@@ -4710,6 +4714,10 @@ section.post-size{
 span.this-date{
 		margin-left: 7em
 	}
+p { 
+   text-indent: 30px;
+}
+
 {% if site.custom_extensions == 'yes' %}
 {% include _my/custom.scss %}
 {% endif %}

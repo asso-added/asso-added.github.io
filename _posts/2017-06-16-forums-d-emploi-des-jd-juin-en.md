@@ -12,6 +12,7 @@ categories:
 tags:
   - featured
 date: 2017-06-16 00:00:00
+background-image: rouen4.jpg
 ---
 
 {% include forum-d-emploi-des-jeunes-docteurs-2017-juin-{{page.lang}}.html %}
