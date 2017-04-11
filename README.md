@@ -15,7 +15,6 @@ Vous pouvez nous contactez sur notre adresse mail : [association.added@gmail.com
 **76801 Saint Ètienne du Rouvray, France.**
 
 
-
 ## À propos du site:
 Ce site a été développé et constamment maintenu par ses membres. À l'origine, développé par le membre de l'association : [Soufiane Belharbi](https://sbelharbi.github.io), le même développeur de l'ancien site de l'association sur [Google sites](https://sites.google.com/prod/view/association-added/accueil). Suite aux limitations de Google sites, nous avons décidé de créer ce site qui est plus riche et plus dynamique de l'ancien grâce à [Jekyll](https://jekyllrb.com/). Le site est hébergé sur [github](https://github.com) grâce aux [pages de github](https://pages.github.com/). Pour avoir ça, nous avons créé un compte sur github: [https://github.com/asso-added](https://github.com/asso-added). Le code de ce site est sur ce [dépôt](https://github.com/asso-added/asso-added.github.io).
 
