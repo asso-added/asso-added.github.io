@@ -21,10 +21,7 @@
         {{ site.first_published | minus:thisyear }}{%
       endcapture %}{%
       if diff contains '-' %}{{
-        site.first_published }},{%
-      endif %}{%
-    endif %}
-    {{ thisyear }}{%
+        site.first_published}}-{% endif %}{% endif %}{{thisyear}}{%
     if site.owner.name %}
       {{ site.owner.name }}{%
     else %}
