@@ -11,6 +11,7 @@ categories:
   - evenements
 tags:
   - featured
+options: past
 date: 2017-10-20 00:00:00
 background-image: rouen4.jpg
 ---
