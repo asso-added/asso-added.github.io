@@ -11,17 +11,17 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: 
+title:
   fr: ADDED
   en: ADDED
-description: 
+description:
   fr: |
-    L'Association des Doctorants et Docteurs  
-    des Écoles Doctorales PSIME & MIIS  
+    L'Association des Doctorants et Docteurs
+    des Écoles Doctorales PSIME & MIIS
     sur Rouen & Le Havre
   en: |
-    The Association of PhD students and Doctors  
-    of the Doctoral Schools PSIME & MIIS  
+    The Association of PhD students and Doctors
+    of the Doctoral Schools PSIME & MIIS
     at Rouen & le Havre
 index:
   fr:
@@ -32,10 +32,10 @@ feed:
 owner:
   name: ADDED # or company name
   email: association.added@gmail.com
-  url: http://association-added.fr
+  url: https://asso-added.github.io
 first_published: 2017 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://association-added.fr" # the base hostname & protocol for your site
+url: "https://asso-added.github.io" # the base hostname & protocol for your site
 banner: "/images/rouen.jpg"
 knowmore:
   fr: En savoir plus
@@ -99,10 +99,10 @@ date-trans:
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: 
+  title:
     fr: À propos
-    en: About  
-  text:  
+    en: About
+  text:
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
